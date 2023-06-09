@@ -16,3 +16,8 @@ def mul(a=0,b=0):
 user_input=mul(10,20)
 print(user_input)  
 
+def div(a=0,b=0):
+  div=a*b
+  return div
+user_input=div(10,20)
+print(user_input)
