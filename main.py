@@ -1,9 +1,9 @@
-import function_calculator
+import function_concept
 import class_concept
-function_calculator.add()
-function_calculator.sub()
-function_calculator.mul()
-function_calculator.div()
+function_concept.add()
+function_concept.sub()
+function_concept.mul()
+function_concept.div()
 
 print("This my first project  i.e Basic Calculator ")
 
