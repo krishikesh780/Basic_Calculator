@@ -1,14 +1,14 @@
 import function_concept
 import class_concept
 import inheritance_concept
-
+import method_overriding_concept
 # Calling function
 function_concept.add()
 function_concept.sub()
 function_concept.mul()
 function_concept.div()
-
 print("Succesfullly running function concept")
+
 # create object of class and calling the function
 e=class_concept.myClass(10,20)
 e.add()
@@ -21,3 +21,9 @@ multi_level.method1()
 multi_level.method2()
 multi_level.method3()
 print("Succesfullly running Inheritance concept")
+
+# method overriding concept 
+obj1=method_overriding_concept.overriding_concept2()
+# line 2 and 5 method name same
+obj1.method1() #by default local method
+print("Succesfullly running method overriding concept")
