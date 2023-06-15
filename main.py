@@ -6,7 +6,7 @@ import method_overriding_concept
 import exceptional_handeling
 
 #Topic-1: Conrol Statement:
-print("Topic-1: Conrol Statement:")
+print("Topic-1: Conrol Statetment:")
 check=control_statement.greatestNo(110,210,310)
 print("greatestNo among 110,210 and 310 is:",check)
 print("Input Number:  11 is : ",control_statement.even_odd(11))
