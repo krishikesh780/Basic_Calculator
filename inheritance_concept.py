@@ -7,12 +7,12 @@
 class multi_level1():
   a,b=100,200
   def method1(self):
-    print(self.a+self.b)
+    return self.a+self.b
 class multi_level2(multi_level1):
   c,d=100,200
   def method2(self):
-    print(self.c-self.d)
+    return self.c-self.d
 class multi_level3(multi_level2):
   x,y=100,200
   def method3(self):
-    print(self.x*self.y)
+    return self.x*self.y

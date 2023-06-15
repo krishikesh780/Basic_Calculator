@@ -3,8 +3,6 @@ class myClass():
     self.x=a
     self.y=b
   def add(self):
-    print(self.x+self.y)
+      return (self.x+self.y)
   def mult(self):
-    print(self.x*self.y)
-
-    
+    return (self.x*self.y)
